@@ -1,9 +1,3 @@
-cmake_minimum_required(VERSION 3.14)
-
-project(TPClientQt
-  DESCRIPTION "Network client for Touch Portal plugin API."
-  LANGUAGES CXX
-)
 
 option(BUILD_SHARED_LIBS "Build project as a shared (DLL) library when ON, or as static lib when OFF." TRUE)
 
